@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../assets/jkl-logo-1.png";
 import { Bars3BottomRightIcon, XMarkIcon } from "@heroicons/react/24/solid";
 
 const Navbar = () => {
@@ -14,7 +15,7 @@ const Navbar = () => {
         <div className="relative flex items-center justify-between h-16">
           {/* Logo */}
           <div className="absolute inset-y-0 left-0 flex items-center">
-            <img className="h-10 w-auto" src="/src/assets/jkl-logo-1.png" alt="Logo" />
+            <img className="h-10 w-auto" src={logo} alt="Logo JKL" />
           </div>
 
           {/* Mobile menu button */}
