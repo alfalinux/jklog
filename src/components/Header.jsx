@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero-image-1.png";
+import heroImage from "../assets/hero-image-2.png";
 
 function Header() {
   return (
@@ -7,7 +7,7 @@ function Header() {
       className="relative bg-cover bg-bottom bg-no-repeat h-96"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="relative container mx-auto flex flex-col items-center justify-center h-full text-white p-6 space-y-4">
         <h1 className="text-xl sm:text-2xl md:text-4xl font-bold text-center">
           <span className="block">Tercepat Dalam Pengiriman</span>
