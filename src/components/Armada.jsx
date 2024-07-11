@@ -21,8 +21,8 @@ const Armada = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* BLINDVAN */}
           <div className="flex flex-col items-center">
-            <img src={granmax} alt="CDE" className="h-32 mb-4" />
-            <h3 className="text-xl font-semibold text-gray-700">5 Unit CDE</h3>
+            <img src={granmax} alt="granmax" className="h-32 mb-4" />
+            <h3 className="text-xl font-semibold text-gray-700">20 Unit Blindvan</h3>
           </div>
           {/* CDE */}
           <div className="flex flex-col items-center">

@@ -1,4 +1,4 @@
-import heroImage from "../assets/hero-image-2.png";
+import heroImage from "../assets/hero-image-1.png";
 
 function Header() {
   return (
@@ -17,7 +17,15 @@ function Header() {
           Dengan Layanan Terluas dan Terintegrasi Secara Inovatif, Kolaboratif & Kompetitif, Kami Siap
           Memperlancar Bisnis Anda
         </h2>
-        <button className="mx-auto w-32 md:w-36 bg-biru-muda-jkl hover:bg-biru-tua-jkl text-white text-xs md:text-sm font-bold py-2 px-4 rounded">
+        <button
+          onClick={() => {
+            window.open(
+              "https://api.whatsapp.com/send?phone=6281232951016&text=Halo%2C%20saya%20mau%20bertanya%20tentang%20tarif%20pengiriman...",
+              "_blank"
+            );
+          }}
+          className="mx-auto w-32 md:w-36 bg-biru-muda-jkl hover:bg-biru-tua-jkl text-white text-xs md:text-sm font-bold py-2 px-4 rounded"
+        >
           Hubungi Kami
         </button>
       </div>

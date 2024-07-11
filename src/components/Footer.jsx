@@ -1,5 +1,6 @@
 import React from "react";
 import footerbg from "../assets/testimonials-bg.jpg";
+import logojkl from "../assets/jkl-logo-1.png";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between">
           {/* Company Info */}
           <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0 z-10">
-            <img src="/src/assets/jkl-logo-1.png" alt="Jupan Karya Logistik" className="h-10 mb-4" />
+            <img src={logojkl} alt="Jupan Karya Logistik" className="h-10 mb-4" />
             <div className="">
               <p>Karah I/29 E</p>
               <p>Kel. Karah, Kec. Jambrangan</p>
