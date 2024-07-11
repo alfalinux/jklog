@@ -1,14 +1,21 @@
 import React from "react";
 import TitleText from "../hooks/TitleText";
+import logojnt from "../assets/partner-logo/jntexpress.png";
+import logokmn from "../assets/partner-logo/kmn.jpeg";
+import logosatake from "../assets/partner-logo/satake.png";
+import logoshopeeexpress from "../assets/partner-logo/shopeeexpress.png";
+import logosina from "../assets/partner-logo/sina.jpeg";
+import logostylekorean from "../assets/partner-logo/stylekorean.png";
+import partnerbg from "../assets/hero-bg.jpg";
 
 const Kerjasama = () => {
   const clientLogos = [
-    { id: 1, image: "/src/assets/partner-logo/jntexpress.png", alt: "Logo 1" },
-    { id: 2, image: "/src/assets/partner-logo/kausar mahala nawasena.jpeg", alt: "Logo 2" },
-    { id: 3, image: "/src/assets/partner-logo/satake.png", alt: "Logo 3" },
-    { id: 4, image: "/src/assets/partner-logo/shopeeexpress.png", alt: "Logo 4" },
-    { id: 5, image: "/src/assets/partner-logo/sina.jpeg", alt: "Logo 5" },
-    { id: 6, image: "/src/assets/partner-logo/stylekorean.png", alt: "Logo 6" },
+    { id: 1, image: logojnt, alt: "Logo 1" },
+    { id: 2, image: logokmn, alt: "Logo 2" },
+    { id: 3, image: logosatake, alt: "Logo 3" },
+    { id: 4, image: logoshopeeexpress, alt: "Logo 4" },
+    { id: 5, image: logosina, alt: "Logo 5" },
+    { id: 6, image: logostylekorean, alt: "Logo 6" },
     // Add more logos as needed
   ];
 
@@ -17,7 +24,7 @@ const Kerjasama = () => {
       id="kerjasama"
       className="relative bg-blue-100"
       style={{
-        backgroundImage: `url(${"./src/assets/hero-bg.jpg"})`,
+        backgroundImage: `url(${partnerbg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",

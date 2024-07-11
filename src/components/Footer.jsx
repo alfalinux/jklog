@@ -1,4 +1,5 @@
 import React from "react";
+import footerbg from "../assets/testimonials-bg.jpg";
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       id="kontak"
       className="relative bg-black text-gray-300 text-sm font-montserrat"
       style={{
-        backgroundImage: `url(${"./src/assets/testimonials-bg.jpg"})`,
+        backgroundImage: `url(${footerbg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
