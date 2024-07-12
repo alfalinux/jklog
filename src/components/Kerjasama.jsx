@@ -48,7 +48,7 @@ const Kerjasama = () => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-y-12">
           {clientLogos.map((client) => (
             <div key={client.id} className="flex justify-center items-center p-2 rounded-lg">
-              <img src={client.image} alt={client.alt} className="max-h-12 md:max-h-36 lg:max-h-36" />
+              <img src={client.image} alt={client.alt} className="max-h-32 md:max-h-36 lg:max-h-36" />
             </div>
           ))}
         </div>

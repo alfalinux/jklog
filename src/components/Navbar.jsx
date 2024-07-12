@@ -77,31 +77,31 @@ const Navbar = () => {
 
         {/* Mobile menu, show/hide based on menu state. */}
         {isOpen && (
-          <div className="absolute top-16 left-0 w-full bg-white shadow-lg md:hidden z-50">
+          <div className="absolute top-16 left-0 w-full bg-white shadow-lg sm:hidden z-50">
             <div className="px-2 pt-2 pb-3 space-y-1">
               <a
-                href="#"
+                href="#beranda"
                 className="text-hitam-muda-jkl hover:bg-biru-muda-jkl hover:text-gray-100 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Home
+                BERANDA
               </a>
               <a
-                href="#"
+                href="#cekongkir"
                 className="text-hitam-muda-jkl hover:bg-biru-muda-jkl hover:text-gray-100 block px-3 py-2 rounded-md text-base font-medium"
               >
-                About
+                CEK ONGKIR
               </a>
               <a
-                href="#"
+                href="#profil"
                 className="text-hitam-muda-jkl hover:bg-biru-muda-jkl hover:text-gray-100 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Services
+                TENTANG KAMI
               </a>
               <a
-                href="#"
+                href="#kontak"
                 className="text-hitam-muda-jkl hover:bg-biru-muda-jkl hover:text-gray-100 block px-3 py-2 rounded-md text-base font-medium"
               >
-                Contact
+                HUBUNGI KAMI
               </a>
               <button className="w-full text-gray-100 bg-biru-muda-jkl hover:bg-biru-tua-jkl hover:text-gray-100 px-3 py-2 rounded-md text-base font-medium">
                 Login
