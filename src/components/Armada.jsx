@@ -27,17 +27,17 @@ const Armada = () => {
           {/* CDE */}
           <div className="flex flex-col items-center">
             <img src={cde} alt="CDE" className="h-36 mb-4" />
-            <h3 className="text-xl font-semibold text-gray-700">CDE</h3>
+            <h3 className="text-xl font-semibold text-gray-700">CDE & CDE L</h3>
           </div>
           {/* CDD */}
           <div className="flex flex-col items-center">
             <img src={cdd} alt="CDD" className="h-36 mb-4" />
-            <h3 className="text-xl font-semibold text-gray-700">CDD</h3>
+            <h3 className="text-xl font-semibold text-gray-700">CDD & CDD L</h3>
           </div>
           {/* Wingbox */}
           <div className="flex flex-col items-center">
             <img src={wingbox} alt="Wingbox" className="h-36 mb-4" />
-            <h3 className="text-xl font-semibold text-gray-700">Wingbox</h3>
+            <h3 className="text-xl font-semibold text-gray-700">Fusobox & Wingbox</h3>
           </div>
         </div>
       </div>

@@ -1,21 +1,31 @@
 import React from "react";
 import TitleText from "../hooks/TitleText";
+import partnerbg from "../assets/hero-bg.jpg";
 import logojnt from "../assets/partner-logo/jntexpress.png";
-import logokmn from "../assets/partner-logo/kmn.jpeg";
+import logokmn from "../assets/partner-logo/kmn.png";
 import logosatake from "../assets/partner-logo/satake.png";
 import logoshopeeexpress from "../assets/partner-logo/shopeeexpress.png";
-import logosina from "../assets/partner-logo/sina.jpeg";
+import logosina from "../assets/partner-logo/sina.png";
 import logostylekorean from "../assets/partner-logo/stylekorean.png";
-import partnerbg from "../assets/hero-bg.jpg";
+import logolynthaztigajaya from "../assets/partner-logo/LYNTHAZTIGAJAYA.png";
+import logomashmoshem from "../assets/partner-logo/mashmoshem.png";
+import logoparicargo from "../assets/partner-logo/paricargo.png";
+import logohsemei from "../assets/partner-logo/hsemei.png";
+import logogdm from "../assets/partner-logo/gdm.png";
 
 const Kerjasama = () => {
   const clientLogos = [
-    { id: 1, image: logojnt, alt: "Logo 1" },
-    { id: 2, image: logokmn, alt: "Logo 2" },
-    { id: 3, image: logosatake, alt: "Logo 3" },
-    { id: 4, image: logoshopeeexpress, alt: "Logo 4" },
-    { id: 5, image: logosina, alt: "Logo 5" },
-    { id: 6, image: logostylekorean, alt: "Logo 6" },
+    { id: 1, image: logojnt, alt: "logo j&t express" },
+    { id: 2, image: logokmn, alt: "logo kausar mahala nawasena" },
+    { id: 3, image: logosatake, alt: "logo satake indonesia" },
+    { id: 4, image: logoshopeeexpress, alt: "logo shopee express" },
+    { id: 5, image: logosina, alt: "logo sin a six fifteen" },
+    { id: 6, image: logostylekorean, alt: "logo style korean" },
+    { id: 7, image: logolynthaztigajaya, alt: "logo lhyntaz tiga jaya" },
+    { id: 8, image: logomashmoshem, alt: "logo mash moshem indonesia" },
+    { id: 9, image: logoparicargo, alt: "logo pari cargo" },
+    { id: 10, image: logohsemei, alt: "logo hsemei / hse mei" },
+    { id: 11, image: logogdm, alt: "logo gdm dari alam ke alam" },
     // Add more logos as needed
   ];
 

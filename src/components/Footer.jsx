@@ -19,23 +19,32 @@ const Footer = () => {
           {/* Company Info */}
           <div className="w-full sm:w-1/2 lg:w-1/4 mb-8 sm:mb-0 z-10">
             <img src={logojkl} alt="Jupan Karya Logistik" className="h-10 mb-4" />
-            <div className="">
-              <p>Karah I/29 E</p>
-              <p>Kel. Karah, Kec. Jambrangan</p>
-              <p>Kota Surabaya, Jawa Timur - 60232</p>
-              <br />
-              <p>
+            <div className="space-y-4">
+              <div>
+                <p>Karah I/29 E</p>
+                <p>Kel. Karah, Kec. Jambrangan</p>
+                <p>Kota Surabaya, Jawa Timur - 60232</p>
+              </div>
+
+              <div>
+                <p>Gading Murni Permai, blok AA-07</p>
+                <p>Pakal, Gresik, Jawa Timur</p>
+              </div>
+
+              <div>
                 <strong>Telp / Whatsapp:</strong>
                 <p>0812-3295-1016</p>
                 <p>0812-1667-8852</p>
-              </p>
-              <br />
-              <p>
-                <strong>Email:</strong>
-              </p>
-              <p>eri.jklogistics@gmail.com</p>
-              <p>eri.andynata@jupankaryalogistik.com</p>
-              <p>admin@jupankaryalogistik.com</p>
+              </div>
+
+              <div>
+                <p>
+                  <strong>Email:</strong>
+                </p>
+                <p>eri.jklogistics@gmail.com</p>
+                <p>eri.andynata@jupankaryalogistik.com</p>
+                <p>admin@jupankaryalogistik.com</p>
+              </div>
             </div>
           </div>
 

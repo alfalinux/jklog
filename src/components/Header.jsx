@@ -9,7 +9,7 @@ function Header() {
     >
       <div className="absolute inset-0 bg-black bg-opacity-60"></div>
       <div className="relative container mx-auto flex flex-col items-start justify-center h-full text-white p-6 space-y-6">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-left">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-left">
           <span className="block">
             Tercepat Dalam <span className="text-biru-muda-jkl">Pengiriman</span>
           </span>
