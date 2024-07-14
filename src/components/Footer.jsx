@@ -99,9 +99,9 @@ const Footer = () => {
 
           <div className="container mt-12 mx-auto text-center py-4 border-t border-gray-800 z-10">
             <p>
-              © <span className="px-1 text-white">2024</span>{" "}
+              <span className="px-1 text-white">2024</span> © <span>All Rights Reserved</span>
+              <br />
               <strong className="px-1">Jupan Karya Logistik</strong>
-              <span>All Rights Reserved</span>
             </p>
           </div>
         </div>
