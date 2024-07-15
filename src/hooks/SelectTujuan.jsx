@@ -207,7 +207,6 @@ function SelectTujuan({ onChange, onClear }) {
             onFocus={handleOnFocus}
             onClear={handleOnClear}
             showIcon={true}
-            autoFocus
             formatResult={formatResult}
             styling={{
               height: "36px",
