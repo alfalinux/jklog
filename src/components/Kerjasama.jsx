@@ -23,7 +23,7 @@ const Kerjasama = () => {
     { id: 6, image: logostylekorean, alt: "logo style korean" },
     { id: 7, image: logolynthaztigajaya, alt: "logo lhyntaz tiga jaya" },
     { id: 8, image: logomashmoshem, alt: "logo mash moshem indonesia" },
-    { id: 9, image: logoparicargo, alt: "logo pari cargo" },
+    // { id: 9, image: logoparicargo, alt: "logo pari cargo" },
     { id: 10, image: logohsemei, alt: "logo hsemei / hse mei" },
     { id: 11, image: logogdm, alt: "logo gdm dari alam ke alam" },
     // Add more logos as needed
